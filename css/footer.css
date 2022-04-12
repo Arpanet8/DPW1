@@ -1,0 +1,128 @@
+.footer-distribusi{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgb(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+.footer-distribusi .footer-kiri,
+.footer-distribusi .footer-tengah,
+.footer-distribusi .footer-kanan{
+	display: inline-block;
+	vertical-align: top;	
+}
+.footer-distribusi .footer-kiri{
+	width: 40%;
+}
+.footer-distribusi h3{
+	color: #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+.footer-distribusi .footer-page{
+	color: #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+.footer-distribusi .footer-page a{
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
+}
+.footer-distribusi .nama-kelompok{
+	color: #5383d3;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+.footer-distribusi .footer-tengah{
+	width: 35%;
+}
+.footer-distribusi .footer-tengah i{
+	background-color: #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+.footer-distribusi .footer-tengah i.email{
+	font-size: 17px;
+	line-height: 38px;
+}
+.footer-distribusi .footer-tengah p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin: 0;
+}
+.footer-distribusi .footer-tengah p span{
+	display: inline-block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+}
+.footer-distribusi .footer-tengah p a{
+	color: #5383d3;
+	text-decoration: none;
+}
+.footer-distribusi .footer-kanan{
+	width: 20%;
+}
+.footer-distribusi .bantuan{
+	line-height: 20px;
+	color: #29999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+.footer-distribusi .bantuan span{
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.footer-distribusi .footer-icon{
+	margin-top: 25px;
+}
+.footer-distribusi .footer-icon a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color: #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+@media (max-width:880px){
+	.footer-distribusi{
+		font: bold 14px sans-serif;
+	}
+	.footer-distribusi .footer-kiri,
+	.footer-distribusi .footer-tengah,
+	.footer-distribusi .footer-kanan{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.footer-distribusi .footer-tengah i{
+		margin-left: 0;
+	}
+}

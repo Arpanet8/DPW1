@@ -1,0 +1,37 @@
+body{
+    background-color: #143f6b;
+}
+#nama{
+    font-size: 3em;
+    color: #5383d3;
+}
+header{
+    float: left;
+}
+nav li{
+    display: inline-block;
+    font-size: 1.75em;
+}
+nav li a{
+    display: inline-block;
+    color: #ffffff; 
+    padding: 0.5em 0.5em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.75em;
+}
+#exercies{
+    background-color: #e4e4e4;
+    font-size: 3em;
+    text-align: center;
+    color: black;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+    padding-top: 4px;
+}
+
+.column {
+    float: right;
+    width: 43%;
+    padding-top: 1.75em;
+  }
