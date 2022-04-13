@@ -110,7 +110,23 @@
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
-@media (max-width:880px){
+.about{
+    
+    display: flex;
+    justify-content : space-between;
+    font-size: 1.5em;
+    margin: 10px;
+	padding-bottom: 1.5em;
+  }
+  .about a:hover{
+    opacity:0.9;
+    background-color: #3385ff;
+    border: 4px solid #3385ff;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+@media (max-width: 600px){
 	.footer-distribusi{
 		font: bold 14px sans-serif;
 	}
@@ -124,5 +140,11 @@
 	}
 	.footer-distribusi .footer-tengah i{
 		margin-left: 0;
+	}
+	.footer-distribusi .about{
+		display: block;
+		text-align: center;
+		margin-bottom: 40px;
+		width: 100%;
 	}
 }
