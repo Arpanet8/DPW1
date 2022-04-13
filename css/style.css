@@ -32,6 +32,48 @@ nav li a{
 
 .column {
     float: right;
-    width: 43%;
+    width: 40%;
     padding-top: 1.75em;
+
   }
+
+.top-nav{
+    border: 2px solid black;
+    background-color: #143f6b;
+    border-radius: 20px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.default {
+    border-color: #143f6b;
+    color: #ffffff;
+  }
+  
+  .default:hover {
+    background: #e7e7e7;
+    color: black;
+  }
+  
+  .marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height:450px;
+    overflow-x: hidden;
+  }
+  
+  .track {
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 25s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  

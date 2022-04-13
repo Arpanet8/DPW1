@@ -20,15 +20,16 @@ body {
   }
   
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: #aeadb8;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 35%);
+    transition: .5s;
+    background-color: #ffffff;
     margin: 8px;
   }
   
   .about-section {
-    padding: 50px;
+    padding: 7px;
     text-align: center;
-    background-color: #474e5d;
+    background-color: #143f6b;
     color: white;
   }
   
@@ -67,4 +68,9 @@ body {
       width: 100%;
       display: block;
     }
+  }
+  .link {
+    text-decoration: none;
+    color: white;
+    
   }
